@@ -24,6 +24,10 @@ public class DmbPhoneMain {
 		dmbCellPhone.changeChannelDmb(12);
 		dmbCellPhone.turnOffDmb();
 	
+		//오버라이딩한 메소드 사용
+		dmbCellPhone.turnOnDmb();
+		dmbCellPhone.changeChannelDmb(12);
+		dmbCellPhone.turnOffDmb();
 	}
 
 }
